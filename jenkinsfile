@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Criando ambiente') {
+            steps {
+                echo 'Fazendo docker compose.'
+            }
+        }
+       
+        }
+    }
